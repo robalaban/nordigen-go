@@ -11,13 +11,13 @@ package openapi
 
 type InlineResponse200 struct {
 
-	Balances []interface{} `json:"balances,omitempty"`
+	Balances []InlineResponse2001Balance `json:"balances,omitempty"`
 }
 
 // AssertInlineResponse200Required checks if the required fields are not zero-ed
 func AssertInlineResponse200Required(obj InlineResponse200) error {
 	for _, el := range obj.Balances {
-		if err := Assertinterface{}Required(el); err != nil {
+		if err := AssertInlineResponse2001BalanceRequired(el); err != nil {
 			return err
 		}
 	}

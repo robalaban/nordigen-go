@@ -11,20 +11,20 @@ package openapi
 
 type InlineResponse2002Transactions struct {
 
-	Booked []interface{} `json:"booked,omitempty"`
+	Booked []InlineResponse2002TransactionsBooked `json:"booked,omitempty"`
 
-	Pending []interface{} `json:"pending,omitempty"`
+	Pending []InlineResponse2002TransactionsPending `json:"pending,omitempty"`
 }
 
 // AssertInlineResponse2002TransactionsRequired checks if the required fields are not zero-ed
 func AssertInlineResponse2002TransactionsRequired(obj InlineResponse2002Transactions) error {
 	for _, el := range obj.Booked {
-		if err := Assertinterface{}Required(el); err != nil {
+		if err := AssertInlineResponse2002TransactionsBookedRequired(el); err != nil {
 			return err
 		}
 	}
 	for _, el := range obj.Pending {
-		if err := Assertinterface{}Required(el); err != nil {
+		if err := AssertInlineResponse2002TransactionsPendingRequired(el); err != nil {
 			return err
 		}
 	}

@@ -51,6 +51,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account metadata 404
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -106,6 +107,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account balances 400
         "401":
           content:
             application/json:
@@ -135,6 +137,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account balances 401
         "403":
           content:
             application/json:
@@ -166,6 +169,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account balances 403
         "404":
           content:
             application/json:
@@ -186,6 +190,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account balances 404
         "409":
           content:
             application/json:
@@ -211,6 +216,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account balances 409
         "429":
           content:
             application/json:
@@ -225,6 +231,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account balances 429
         "500":
           content:
             application/json:
@@ -239,6 +246,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account balances 500
         "503":
           content:
             application/json:
@@ -260,6 +268,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account balances 503
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -312,6 +321,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account details 400
         "401":
           content:
             application/json:
@@ -341,6 +351,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account details 401
         "403":
           content:
             application/json:
@@ -372,6 +383,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account details 403
         "404":
           content:
             application/json:
@@ -392,6 +404,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account details 404
         "409":
           content:
             application/json:
@@ -417,6 +430,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account details 409
         "429":
           content:
             application/json:
@@ -431,6 +445,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account details 429
         "500":
           content:
             application/json:
@@ -445,6 +460,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account details 500
         "503":
           content:
             application/json:
@@ -466,6 +482,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample account details 503
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -542,6 +559,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample transaction data 400
         "401":
           content:
             application/json:
@@ -571,6 +589,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample transaction data 401
         "403":
           content:
             application/json:
@@ -602,6 +621,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample transaction data 403
         "404":
           content:
             application/json:
@@ -622,6 +642,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample transaction data 404
         "409":
           content:
             application/json:
@@ -647,6 +668,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample transaction data 409
         "429":
           content:
             application/json:
@@ -661,6 +683,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample transaction data 429
         "500":
           content:
             application/json:
@@ -675,6 +698,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample transaction data 500
         "503":
           content:
             application/json:
@@ -696,6 +720,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: sample transaction data 503
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -799,6 +824,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Create enduser agreement 400
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -832,6 +858,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: View enduser agreement
         "400":
           content:
             application/json:
@@ -854,6 +881,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: View enduser agreement 400
         "404":
           content:
             application/json:
@@ -867,6 +895,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: View enduser agreement 404
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -905,6 +934,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Retrieve enduser agreement by id 404
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -1042,6 +1072,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: list of supported Institutions in the country 400
         "403":
           content:
             application/json:
@@ -1056,6 +1087,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: list of supported Institutions in the country 403
         "404":
           content:
             application/json:
@@ -1069,6 +1101,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: list of supported Institutions in the country 404
       security:
       - jwtAuth: []
       - cookieAuth: []
@@ -1164,6 +1197,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Retrieve institution by id 404
       security:
       - jwtAuth: []
       - cookieAuth: []
@@ -1310,6 +1344,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Requisition has been succesfully created 400
         "404":
           content:
             application/json:
@@ -1326,6 +1361,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Requisition has been succesfully created 404
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -1362,6 +1398,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: requisition has been deleted 400
         "404":
           content:
             application/json:
@@ -1375,6 +1412,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: requisition has been deleted 404
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -1413,6 +1451,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Get requisition by id 404
       security:
       - tokenAuth: []
       - cookieAuth: []
@@ -1455,6 +1494,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Obtain JWT response 401
         "403":
           content:
             application/json:
@@ -1470,6 +1510,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Obtain JWT response 403
       tags:
       - token
   /api/v2/token/refresh/:
@@ -1509,6 +1550,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Refresh access token 401
         "403":
           content:
             application/json:
@@ -1524,6 +1566,7 @@ paths:
               schema:
                 additionalProperties: {}
                 type: object
+          description: Refresh access token 403
       tags:
       - token
 components:
@@ -2052,30 +2095,41 @@ components:
         as set in End User Agreement"}'
       - '{"short":"RJ","long":"REJECTED","description":"SSN verification has failed"}'
       type: string
+    inline_response_200_1_balance:
+      example:
+        balanceAmount:
+          amount: "519.71"
+          currency: string
+        balanceType: string
+        referenceDate: 2021-11-19
+      properties:
+        balanceType:
+          title: Balance Type
+          type: string
+        referenceDate:
+          title: Reference Date
+          type: string
+        balanceAmount:
+          $ref: '#/components/schemas/Balance_Amount'
+      type: object
     inline_response_200:
       example:
         balances:
-        - '{}'
-        - '{}'
+        - balanceAmount:
+            amount: "519.71"
+            currency: string
+          balanceType: string
+          referenceDate: 2021-11-19
+        - balanceAmount:
+            amount: -357.79
+            currency: string
+          balanceType: string
+          referenceDate: 2021-11-16
       properties:
         balances:
           items:
-            properties:
-              balanceType:
-                title: Balance Type
-                type: string
-              referenceDate:
-                title: Reference Date
-                type: string
-              balanceAmount:
-                properties:
-                  amount:
-                    title: Amount
-                    type: string
-                  currency:
-                    title: Currency
-                    type: string
-                type: object
+            $ref: '#/components/schemas/inline_response_200_1_balance'
+          title: Balances
           type: array
       type: object
     inline_response_200_1_account:
@@ -2118,57 +2172,75 @@ components:
         account:
           $ref: '#/components/schemas/inline_response_200_1_account'
       type: object
+    inline_response_200_2_transactions_pending:
+      example:
+        transactionAmount:
+          amount: null
+          currency: null
+        transactionId: null
+        valueDate: null
+        remittanceInformationUnstructuredArray: null
+      properties:
+        transactionAmount:
+          $ref: '#/components/schemas/inline_response_200_2_transactions_pending_transactionAmount'
+        valueDate:
+          type: string
+        remittanceInformationUnstructuredArray:
+          type: string
+      type: object
+    inline_response_200_2_transactions_booked:
+      example:
+        bookingDate: null
+        creditorName: null
+        proprietaryBankTransactionCode: null
+        remittanceInformationUnstructuredArray: null
+        transactionAmount:
+          amount: null
+          currency: null
+        transactionId: null
+        valueDate: null
+      properties:
+        transactionId:
+          type: string
+        debtorName:
+          type: string
+        debtorAccount:
+          $ref: '#/components/schemas/inline_response_200_2_transactions_booked_debtorAccount'
+        transactionAmount:
+          $ref: '#/components/schemas/inline_response_200_2_transactions_pending_transactionAmount'
+        bankTransactionCode:
+          type: string
+        bookingDate:
+          type: string
+        valueDate:
+          type: string
+        remittanceInformationUnstructured:
+          type: string
+      type: object
     inline_response_200_2_transactions:
       example:
         booked:
-        - '{}'
-        - '{}'
+        - bookingDate: null
+          creditorName: null
+          proprietaryBankTransactionCode: null
+          remittanceInformationUnstructuredArray: null
+          transactionAmount:
+            amount: null
+            currency: null
+          transactionId: null
+          valueDate: null
         pending:
-        - '{}'
         - '{}'
       properties:
         booked:
           items:
-            properties:
-              transactionId:
-                type: string
-              debtorName:
-                type: string
-              debtorAccount:
-                properties:
-                  bban:
-                    type: string
-                type: object
-              transactionAmount:
-                properties:
-                  currency:
-                    type: string
-                  amount:
-                    type: string
-                type: object
-              bankTransactionCode:
-                type: string
-              bookingDate:
-                type: string
-              valueDate:
-                type: string
-              remittanceInformationUnstructured:
-                type: string
+            $ref: '#/components/schemas/inline_response_200_2_transactions_booked'
+          title: Booked
           type: array
         pending:
           items:
-            properties:
-              transactionAmount:
-                properties:
-                  currency:
-                    type: string
-                  amount:
-                    type: string
-                type: object
-              valueDate:
-                type: string
-              remittanceInformationUnstructuredArray:
-                type: string
+            $ref: '#/components/schemas/inline_response_200_2_transactions_pending'
+          title: Pending
           type: array
       type: object
     inline_response_200_2:
@@ -2183,6 +2255,28 @@ components:
       properties:
         transactions:
           $ref: '#/components/schemas/inline_response_200_2_transactions'
+      type: object
+    Balance_Amount:
+      properties:
+        amount:
+          title: Amount
+          type: string
+        currency:
+          title: Currency
+          type: string
+      title: Balance Amount
+      type: object
+    inline_response_200_2_transactions_pending_transactionAmount:
+      properties:
+        currency:
+          type: string
+        amount:
+          type: string
+      type: object
+    inline_response_200_2_transactions_booked_debtorAccount:
+      properties:
+        bban:
+          type: string
       type: object
   securitySchemes:
     cookieAuth:

@@ -1,4 +1,3 @@
-.openapi-generator-ignore
 Dockerfile
 README.md
 api/openapi.yaml
@@ -21,13 +20,19 @@ go/logger.go
 go/model_account_v2.go
 go/model_account_v2_status_enum.go
 go/model_aspsp.go
+go/model_balance_amount.go
 go/model_end_user_agreement.go
 go/model_enduser_acceptance_details.go
 go/model_inline_response_200.go
 go/model_inline_response_200_1.go
 go/model_inline_response_200_1_account.go
+go/model_inline_response_200_1_balance.go
 go/model_inline_response_200_2.go
 go/model_inline_response_200_2_transactions.go
+go/model_inline_response_200_2_transactions_booked.go
+go/model_inline_response_200_2_transactions_booked_debtor_account.go
+go/model_inline_response_200_2_transactions_pending.go
+go/model_inline_response_200_2_transactions_pending_transaction_amount.go
 go/model_jwt_obtain_pair.go
 go/model_jwt_refresh.go
 go/model_paginated_end_user_agreement_list.go
