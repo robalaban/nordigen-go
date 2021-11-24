@@ -1,6 +1,9 @@
-<p align="center">
+<h3 align="center">
+   🏦
+</h3>
+<h2 align="center">
    Go bindings for Nordigen Openbanking API
- </p>
+</h2>
 
 [Nordigen](http://nordigen.com) provides open-banking data, which allow you to get access to banking information programatically. I sugges you check them out if you're interested in anything related to open banking.
 
@@ -45,3 +48,11 @@ Once image is built use
  ```
  docker run --rm -it openapi
  ```
+ 
+ ### Things to do
+
+- [x] Implement all Nordigen routes 
+- [ ] JWTObtain method
+- [ ] JWTRefresh method not implemented
+- [ ] Handle Accounts
+- [ ] Handle Institutions
